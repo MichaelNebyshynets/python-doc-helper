@@ -1,0 +1,11 @@
+# Сервер векторной базы Chroma. Запуск: docker compose up -d   Остановка: docker compose down
+# Данные сохраняются в папке ./chroma_data рядом с этим файлом (переживают перезапуск контейнера).
+# Версия образа должна совпадать с версией пакета chromadb в requirements.txt.
+services:
+  chroma:
+    image: chromadb/chroma:1.5.9
+    ports:
+      - "8001:8000"   # снаружи 8001 (8000 занят нашим API), внутри контейнера Chroma слушает 8000
+    volumes:
+      - ./chroma_data:/data
+    restart: unless-stopped

@@ -1,0 +1,73 @@
+[
+ {
+  "q": "what is torch.nn.CrossEntropyLoss",
+  "lang": "en",
+  "type": "api",
+  "gold": [
+   "torch.nn.CrossEntropyLoss"
+  ]
+ },
+ {
+  "q": "как работает оптимизатор torch.optim.Adam",
+  "lang": "ru",
+  "type": "api",
+  "gold": [
+   "torch.optim.Adam"
+  ]
+ },
+ {
+  "q": "how to wrap a model with torch.nn.DataParallel",
+  "lang": "en",
+  "type": "howto",
+  "gold": [
+   "torch.nn.DataParallel"
+  ]
+ },
+ {
+  "q": "как перенести тензор на GPU",
+  "lang": "ru",
+  "type": "howto",
+  "gold": [
+   "torch.Tensor.to"
+  ]
+ },
+ {
+  "q": "what does GradScaler do in mixed precision training",
+  "lang": "en",
+  "type": "concept",
+  "gold": [
+   "torch.cuda.amp.GradScaler",
+   "Automatic Mixed Precision examples"
+  ]
+ },
+ {
+  "q": "how to use torch.nn.FlashLinear layer",
+  "lang": "en",
+  "type": "none",
+  "gold": []
+ },
+ {
+  "q": "как обучить модель на TPU с помощью JAX",
+  "lang": "ru",
+  "type": "none",
+  "gold": []
+ },
+ {
+  "q": "what is the best pizza in Rome",
+  "lang": "en",
+  "type": "none",
+  "gold": []
+ },
+ {
+  "q": "как использовать torch.auto_train",
+  "lang": "ru",
+  "type": "none",
+  "gold": []
+ },
+ {
+  "q": "how to deploy a model with FastAPI",
+  "lang": "en",
+  "type": "none",
+  "gold": []
+ }
+]

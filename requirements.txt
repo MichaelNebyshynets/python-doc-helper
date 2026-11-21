@@ -1,0 +1,9 @@
+# Python 3.10+. Версии не зафиксированы; после установки можно сохранить свои: pip freeze > requirements.lock.txt
+numpy
+ollama
+chromadb==1.5.9         # клиент Chroma; версия должна совпадать с образом в docker-compose.yml
+sentence-transformers   # реранкер BAAI/bge-reranker-v2-m3 (подтянет torch)
+torch                   # нужен и для docstring'ов в corpus_clean.ipynb
+rank-bm25
+fastapi                 # бэкенд для React-интерфейса
+uvicorn

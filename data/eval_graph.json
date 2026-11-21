@@ -1,0 +1,175 @@
+[
+ {
+  "q": "what is a less experimental and faster alternative to torch.autograd.functional.jacobian",
+  "lang": "en",
+  "type": "graph",
+  "relation": "instead",
+  "src": [
+   "torch.autograd.functional.jacobian"
+  ],
+  "gold": [
+   "torch.func.jacfwd",
+   "torch.func.jacrev"
+  ]
+ },
+ {
+  "q": "как посчитать triplet margin loss с собственной функцией расстояния",
+  "lang": "ru",
+  "type": "graph",
+  "relation": "see also",
+  "src": [
+   "torch.nn.TripletMarginLoss"
+  ],
+  "gold": [
+   "torch.nn.TripletMarginWithDistanceLoss"
+  ]
+ },
+ {
+  "q": "what should I use instead of Tensor.resize_ to change the shape of a tensor",
+  "lang": "en",
+  "type": "graph",
+  "relation": "instead",
+  "src": [
+   "torch.Tensor.resize_"
+  ],
+  "gold": [
+   "torch.Tensor.view",
+   "torch.Tensor.reshape"
+  ]
+ },
+ {
+  "q": "какие функции использовать для нормы вектора и нормы матрицы вместо torch.norm",
+  "lang": "ru",
+  "type": "graph",
+  "relation": "instead",
+  "src": [
+   "torch.functional.norm"
+  ],
+  "gold": [
+   "torch.linalg.vector_norm",
+   "torch.linalg.matrix_norm"
+  ]
+ },
+ {
+  "q": "how to broadcast tensors between processes when you do not need to send Python objects",
+  "lang": "en",
+  "type": "graph",
+  "relation": "instead",
+  "src": [
+   "torch.distributed.broadcast_object_list"
+  ],
+  "gold": [
+   "torch.distributed.broadcast"
+  ]
+ },
+ {
+  "q": "какой класс рекомендуется использовать вместо устаревшего reduce_op",
+  "lang": "ru",
+  "type": "graph",
+  "relation": "instead",
+  "src": [
+   "torch.distributed.reduce_op"
+  ],
+  "gold": [
+   "torch.distributed.ReduceOp"
+  ]
+ },
+ {
+  "q": "what is torch.linalg.matmul an alias of",
+  "lang": "en",
+  "type": "graph",
+  "relation": "alias",
+  "src": [
+   "torch.linalg.matmul"
+  ],
+  "gold": [
+   "torch.matmul"
+  ]
+ },
+ {
+  "q": "какая функция делает то же самое, что true_divide",
+  "lang": "ru",
+  "type": "graph",
+  "relation": "alias",
+  "src": [
+   "torch.true_divide"
+  ],
+  "gold": [
+   "torch.div"
+  ]
+ },
+ {
+  "q": "чему равна функция greater_equal",
+  "lang": "ru",
+  "type": "graph",
+  "relation": "alias",
+  "src": [
+   "torch.greater_equal"
+  ],
+  "gold": [
+   "torch.ge"
+  ]
+ },
+ {
+  "q": "which two operations is CrossEntropyLoss equivalent to when the input has class indices",
+  "lang": "en",
+  "type": "graph",
+  "relation": "equivalent",
+  "src": [
+   "torch.nn.CrossEntropyLoss"
+  ],
+  "gold": [
+   "torch.nn.LogSoftmax",
+   "torch.nn.NLLLoss"
+  ]
+ },
+ {
+  "q": "что делать, если view нельзя выполнить для тензора с такой раскладкой",
+  "lang": "ru",
+  "type": "graph",
+  "relation": "instead",
+  "src": [
+   "torch.Tensor.view"
+  ],
+  "gold": [
+   "torch.Tensor.reshape",
+   "torch.Tensor.contiguous"
+  ]
+ },
+ {
+  "q": "how do I register my own custom operator",
+  "lang": "en",
+  "type": "graph",
+  "relation": "instead",
+  "src": [
+   "torch._library.custom_ops.CustomOpDef"
+  ],
+  "gold": [
+   "torch.library.custom_op"
+  ]
+ },
+ {
+  "q": "which function samples from the same distribution as Categorical",
+  "lang": "en",
+  "type": "graph",
+  "relation": "equivalent",
+  "src": [
+   "torch.distributions.categorical.Categorical"
+  ],
+  "gold": [
+   "torch.multinomial"
+  ]
+ },
+ {
+  "q": "is transpose_copy the same as transpose, and how does the output differ",
+  "lang": "en",
+  "type": "graph",
+  "relation": "equivalent",
+  "src": [
+   "torch.transpose_copy"
+  ],
+  "gold": [
+   "torch.transpose"
+  ]
+ }
+]

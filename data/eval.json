@@ -1,0 +1,382 @@
+[
+ {
+  "q": "torch.nn.functional.conv2d",
+  "lang": "en",
+  "type": "api",
+  "gold": [
+   "torch.nn.functional.conv2d"
+  ]
+ },
+ {
+  "q": "what does torch.nn.Dropout do",
+  "lang": "en",
+  "type": "api",
+  "gold": [
+   "torch.nn.Dropout"
+  ]
+ },
+ {
+  "q": "torch.optim.lr_scheduler.StepLR",
+  "lang": "en",
+  "type": "api",
+  "gold": [
+   "torch.optim.lr_scheduler.StepLR"
+  ]
+ },
+ {
+  "q": "что делает torch.nn.LayerNorm",
+  "lang": "ru",
+  "type": "api",
+  "gold": [
+   "torch.nn.LayerNorm"
+  ]
+ },
+ {
+  "q": "параметры torch.nn.LSTM",
+  "lang": "ru",
+  "type": "api",
+  "gold": [
+   "torch.nn.LSTM"
+  ]
+ },
+ {
+  "q": "how to use torch.einsum",
+  "lang": "en",
+  "type": "api",
+  "gold": [
+   "torch.einsum"
+  ]
+ },
+ {
+  "q": "как работает torch.where",
+  "lang": "ru",
+  "type": "api",
+  "gold": [
+   "torch.where"
+  ]
+ },
+ {
+  "q": "what is torch.nn.Linear",
+  "lang": "en",
+  "type": "api",
+  "gold": [
+   "torch.nn.Linear"
+  ]
+ },
+ {
+  "q": "как дополнить последовательности до одной длины pad_sequence",
+  "lang": "ru",
+  "type": "api",
+  "gold": [
+   "torch.nn.utils.rnn.pad_sequence"
+  ]
+ },
+ {
+  "q": "torch.distributed.init_process_group arguments",
+  "lang": "en",
+  "type": "api",
+  "gold": [
+   "torch.distributed.init_process_group"
+  ]
+ },
+ {
+  "q": "how to save and load a model",
+  "lang": "en",
+  "type": "howto",
+  "gold": [
+   "torch.save",
+   "Saving and loading torch.nn.Modules"
+  ]
+ },
+ {
+  "q": "как сохранить и загрузить модель",
+  "lang": "ru",
+  "type": "howto",
+  "gold": [
+   "torch.save",
+   "Saving and loading torch.nn.Modules"
+  ]
+ },
+ {
+  "q": "how to freeze layers so they are not trained",
+  "lang": "en",
+  "type": "howto",
+  "gold": [
+   "Setting `requires_grad`"
+  ]
+ },
+ {
+  "q": "как отключить вычисление градиентов при инференсе",
+  "lang": "ru",
+  "type": "howto",
+  "gold": [
+   "torch.no_grad",
+   "Locally disabling gradient computation"
+  ]
+ },
+ {
+  "q": "how to use mixed precision training",
+  "lang": "en",
+  "type": "howto",
+  "gold": [
+   "Automatic Mixed Precision examples",
+   "torch.cuda.amp.GradScaler",
+   "Automatic Mixed Precision package - torch.amp"
+  ]
+ },
+ {
+  "q": "как обучать модель на нескольких GPU",
+  "lang": "ru",
+  "type": "howto",
+  "gold": [
+   "Distributed Data Parallel",
+   "torch.nn.DataParallel",
+   "Working with Multiple GPUs",
+   "Distributed Training"
+  ]
+ },
+ {
+  "q": "how to train on multiple GPUs",
+  "lang": "en",
+  "type": "howto",
+  "gold": [
+   "Distributed Data Parallel",
+   "torch.nn.DataParallel",
+   "Working with Multiple GPUs",
+   "Distributed Training"
+  ]
+ },
+ {
+  "q": "how to make training reproducible",
+  "lang": "en",
+  "type": "howto",
+  "gold": [
+   "Reproducibility",
+   "torch.use_deterministic_algorithms"
+  ]
+ },
+ {
+  "q": "как сделать обучение воспроизводимым",
+  "lang": "ru",
+  "type": "howto",
+  "gold": [
+   "Reproducibility",
+   "torch.use_deterministic_algorithms"
+  ]
+ },
+ {
+  "q": "how to initialize weights of a layer",
+  "lang": "en",
+  "type": "howto",
+  "gold": [
+   "torch.nn.init",
+   "torch.nn.init.kaiming_normal_",
+   "torch.nn.init.kaiming_uniform_",
+   "torch.nn.init.xavier_normal_",
+   "torch.nn.init.xavier_uniform_",
+   "torch.nn.init.normal_",
+   "torch.nn.init.uniform_"
+  ]
+ },
+ {
+  "q": "how to switch a model to evaluation mode",
+  "lang": "en",
+  "type": "howto",
+  "gold": [
+   "Evaluation Mode (`nn.Module.eval()`)"
+  ]
+ },
+ {
+  "q": "как посчитать градиент по параметрам",
+  "lang": "ru",
+  "type": "howto",
+  "gold": [
+   "torch.Tensor.backward",
+   "torch.autograd.grad",
+   "Autograd mechanics",
+   "torch.autograd.backward"
+  ]
+ },
+ {
+  "q": "what is autograd",
+  "lang": "en",
+  "type": "concept",
+  "gold": [
+   "Autograd mechanics"
+  ]
+ },
+ {
+  "q": "что такое broadcasting в PyTorch",
+  "lang": "ru",
+  "type": "concept",
+  "gold": [
+   "Broadcasting semantics"
+  ]
+ },
+ {
+  "q": "how does DataLoader num_workers work",
+  "lang": "en",
+  "type": "concept",
+  "gold": [
+   "Multi-process data loading",
+   "torch.utils.data.DataLoader"
+  ]
+ },
+ {
+  "q": "how does autograd record operations in the graph",
+  "lang": "en",
+  "type": "concept",
+  "gold": [
+   "How autograd encodes the history"
+  ]
+ },
+ {
+  "q": "что такое Parameter в nn.Module",
+  "lang": "ru",
+  "type": "concept",
+  "gold": [
+   "torch.nn.parameter.Parameter"
+  ]
+ },
+ {
+  "q": "what is the difference between view and reshape",
+  "lang": "en",
+  "type": "concept",
+  "gold": [
+   "torch.Tensor.view",
+   "torch.reshape"
+  ]
+ },
+ {
+  "q": "how does the CUDA caching memory allocator work",
+  "lang": "en",
+  "type": "concept",
+  "gold": [
+   "Memory management"
+  ]
+ },
+ {
+  "q": "что такое DistributedDataParallel и как он работает",
+  "lang": "ru",
+  "type": "concept",
+  "gold": [
+   "Distributed Data Parallel"
+  ]
+ },
+ {
+  "q": "что такое lr scheduler",
+  "lang": "ru",
+  "type": "concept",
+  "gold": [
+   "torch.optim.lr_scheduler.LRScheduler"
+  ]
+ },
+ {
+  "q": "what is inference mode",
+  "lang": "en",
+  "type": "concept",
+  "gold": [
+   "Inference Mode"
+  ]
+ },
+ {
+  "q": "что такое checkpointing активаций",
+  "lang": "ru",
+  "type": "concept",
+  "gold": [
+   "torch.utils.checkpoint"
+  ]
+ },
+ {
+  "q": "what are the best practices for multiprocessing",
+  "lang": "en",
+  "type": "concept",
+  "gold": [
+   "Multiprocessing best practices"
+  ]
+ },
+ {
+  "q": "how to bake a chocolate cake",
+  "lang": "en",
+  "type": "none",
+  "gold": []
+ },
+ {
+  "q": "как приготовить борщ",
+  "lang": "ru",
+  "type": "none",
+  "gold": []
+ },
+ {
+  "q": "who won the 2018 world cup",
+  "lang": "en",
+  "type": "none",
+  "gold": []
+ },
+ {
+  "q": "какая столица Франции",
+  "lang": "ru",
+  "type": "none",
+  "gold": []
+ },
+ {
+  "q": "how to train a model with tf.keras Model.fit",
+  "lang": "en",
+  "type": "none",
+  "gold": []
+ },
+ {
+  "q": "how to set up an Nginx reverse proxy",
+  "lang": "en",
+  "type": "none",
+  "gold": []
+ },
+ {
+  "q": "как настроить Docker compose",
+  "lang": "ru",
+  "type": "none",
+  "gold": []
+ },
+ {
+  "q": "what is the weather in Paris",
+  "lang": "en",
+  "type": "none",
+  "gold": []
+ },
+ {
+  "q": "what does torch.nn.SuperLinear do",
+  "lang": "en",
+  "type": "none",
+  "gold": []
+ },
+ {
+  "q": "how to use torch.quantum_compute",
+  "lang": "en",
+  "type": "none",
+  "gold": []
+ },
+ {
+  "q": "how to train a model in TensorFlow with tf.GradientTape",
+  "lang": "en",
+  "type": "none",
+  "gold": []
+ },
+ {
+  "q": "как использовать torch.magic_optimizer",
+  "lang": "ru",
+  "type": "none",
+  "gold": []
+ },
+ {
+  "q": "how to fine-tune GPT-4 with the OpenAI API",
+  "lang": "en",
+  "type": "none",
+  "gold": []
+ },
+ {
+  "q": "как сделать запрос к базе данных PostgreSQL через SQLAlchemy",
+  "lang": "ru",
+  "type": "none",
+  "gold": []
+ }
+]
